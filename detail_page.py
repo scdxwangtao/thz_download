@@ -35,12 +35,12 @@ def get_detail_page(url):
 
         '''Create the current name folder under the Data folder.'''
         # Create a level 1 plate directory
-        tools.mkdir("data/" + forum_name)
+        tools.mkdir("../data/" + forum_name)
         # Create a secondary plate directory
-        tools.mkdir("data/" + forum_name + "/" + secondary_classification)
+        tools.mkdir("../data/" + forum_name + "/" + secondary_classification)
         # Create a directory for saving files
-        tools.mkdir("data/" + forum_name + "/" + secondary_classification + "/" + name, True)
-        path = "data/" + forum_name + "/" + secondary_classification + "/" + name + "/" + name
+        tools.mkdir("../data/" + forum_name + "/" + secondary_classification + "/" + name, True)
+        path = "../data/" + forum_name + "/" + secondary_classification + "/" + name + "/" + name
         '''Save movie information.'''
         logical_page.save_movie_information(path, text, name, url)
 

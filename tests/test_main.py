@@ -82,7 +82,7 @@ if __name__ == '__main__':
     # detail_urls, forum_name = test_forum_page("http://91thz.cc/forum-181-1.html")       # 亚洲无码
     # detail_urls, forum_name = test_forum_page("http://91thz.cc/forum-182-1.html")       # 欧美无码
     # detail_urls, forum_name = test_forum_page("http://91thz.cc/forum-69-1.html")       # 国内原创
-    detail_urls, forum_name = test_forum_page("http://91thz.cc/forum-177-1.html")       # 蓝光高清原盘
+    # detail_urls, forum_name = test_forum_page("http://91thz.cc/forum-177-1.html")       # 蓝光高清原盘
     # print(len(detail_urls))
     # print(forum_name)
 
